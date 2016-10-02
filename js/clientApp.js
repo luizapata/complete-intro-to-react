@@ -1,8 +1,7 @@
 var React = require('react')
+var ReactDOM = require('react-dom')
 var MyTitle = require('./MyTitle')
 var div = React.DOM.div
-var h1 = React.DOM.h1
-
 
 var myTitlefactory = React.createFactory(MyTitle)
 var ce = React.createElement
